@@ -1,4 +1,3 @@
-//error : not  showing file chooser
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -25,6 +24,7 @@ public class J_File_Chooser extends JFrame  implements ActionListener
         bt = new JButton("Open File Chooser");
         bt.setBounds(100,100,100,50);
         add(bt);
+        bt.addActionListener(this);
         
     }
     public static void main(String[] args) 

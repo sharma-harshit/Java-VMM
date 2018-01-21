@@ -1,4 +1,3 @@
-//error : shows on maximizing
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -11,7 +10,6 @@ public class image_on_label extends JFrame
         setTitle("Mouse Listener Implentation");
         setSize(1000,700);
         setLayout(null);
-        setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
  
         //intializing label
@@ -20,6 +18,9 @@ public class image_on_label extends JFrame
         lb.setBounds(100,100,500,300);
         lb.setIcon(img);
         add(lb);
+       
+        setVisible(true);
+
     }
     public static void main(String[] args) 
     {

@@ -1,0 +1,2 @@
+Hello print writer
+FileInputStream is being used to implement PrintWriter

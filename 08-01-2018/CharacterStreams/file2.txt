@@ -1,0 +1,2 @@
+Hello print writer
+FileWriter is being used to implement PrintWriter
